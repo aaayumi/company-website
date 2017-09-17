@@ -324,3 +324,30 @@ footer .col {
     float: left;
     color: white;
 }
+
+/* Animation */
+.animateBlock {
+   display: inline-block;
+   position: relative;
+   -webkit-transition: all .55s ease-in;
+   -moz-transition: all .55s ease-in; 
+   -ms-transition: all .55s ease-in;
+   -o-transition: all .55s ease-in;
+   transition: all .55s ease-in;;
+}
+
+.animateBlock.left {
+    left: -30%;
+}
+
+.left.animated {
+    left: 0%;
+}
+
+.animateBlock.right {
+    right: -30%;
+}
+
+.right.animated {
+    right: 0%;
+}
